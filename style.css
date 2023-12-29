@@ -38,7 +38,7 @@ table th {
   top: 0;
   background-color: #191919;
   position: sticky;
-  padding: 1rem 1rem;
+  padding: 2rem 1rem;
   width: 400px;
   text-align: start;
   font-weight: 300;
@@ -46,6 +46,10 @@ table th {
   letter-spacing: 0.1rem;
   font-size: 12px;
   cursor: pointer;
+}
+
+table th:hover {
+  color: aqua;
 }
 
 table td {
